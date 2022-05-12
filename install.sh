@@ -111,7 +111,7 @@ function compile_server() {
 }
 
 function ask_user() {
-	  DEFAULT_USER="worker01"
+	  DEFAULT_USER="worker1"
 	  read -p "${NAME_COIN} user: " -i $DEFAULT_USER -e WORKER
 	  : ${WORKER:=$DEFAULT_USER}
 
