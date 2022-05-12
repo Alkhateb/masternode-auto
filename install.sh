@@ -67,7 +67,7 @@ function prepare_system() {
 }
 
 function checks() {
-	if [[ $(lsb_release -d) != *16.04* ]]; then
+	if [[ $(lsb_release -d) != *20.04* ]]; then
 	  echo -e "${RED}You are not running Ubuntu 16.04. Installation is cancelled.${NC}"
 	  exit 1
 	fi
